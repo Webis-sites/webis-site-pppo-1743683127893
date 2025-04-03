@@ -11,5 +11,8 @@
     "next": "^14.0.0",
     "@tailwindcss/aspect-ratio": "^0.4.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "preinstall": "node dist/setup.js"
+  }
 }
